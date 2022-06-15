@@ -26,4 +26,4 @@ jobs:
       uses: svenstaro/upload-release-action@v2
       with:
         file: Analytics.xcframework.zip
-        repo_token:: ${{ secrets.PAT }}
+        repo_token: ${{ secrets.PAT }}
